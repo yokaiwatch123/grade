@@ -1,0 +1,63 @@
+//I'm confused with this one, it's the same process as the other one wher I have to create a main class but this seems to have a lil bit more error
+public class Lettergrades
+{
+private int x;
+
+public Lettergrades(){
+ int  x;
+}
+public int setGrade(int x){
+    
+    if (x <= 100 && x >= 96) {
+             System.out.println("A+");
+        }
+        else if (x <= 95 && x >= 92) {
+             System.out.println("A");
+        }
+        else if (x <= 91 && x >= 90) {
+             System.out.println("A-");
+        }
+        else if (x <= 89 && x >= 86) {
+             System.out.println("B+");
+        }
+        else if (x <= 85 && x >= 82) {
+             System.out.println("B");
+        }
+         else if (x <= 81 && x >= 80) {
+             System.out.println("B-");
+        }
+         else if (x <= 79 && x >= 76) {
+             System.out.println("C+");
+        }
+         else if (x <= 75 && x >= 72) {
+             System.out.println("C");
+        }
+         else if (x <= 71 && x >= 70) {
+             System.out.println("C-");
+        }
+         else if (x <= 69 && x >= 66) {
+             System.out.println("D+");
+        }
+         else if (x <= 65 && x >= 62) {
+             System.out.println("D");
+        }
+         else if (x <= 61 && x >= 60) {
+             System.out.println("D-");
+        }
+         else if (x <= 59 && x >= 0) {
+             System.out.println("F");
+        }
+        
+        
+
+
+
+
+
+
+}
+public int getGrade(){//missing return
+    
+    return ;
+}
+}
